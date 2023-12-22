@@ -495,8 +495,10 @@ int main(int argc, char** argv) {
 
 	if (numFrames < 5) {
 		std::cerr << "Invalid number of frames. Using default value (5)." << std::endl;
+		numFrames = 5;
 	} else if (numFrames > 25) {
 		std::cerr << "Invalid number of frames. Using default value (5)." << std::endl;
+		numFrames = 5;
 	}
 	
 	glutTimerFunc(0, timer, 0);
