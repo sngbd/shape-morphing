@@ -49,7 +49,7 @@ float shapeChangeTime = 5;
 
 float learnTime = 5;
 
-int numFrames = 10;
+int numFrames = 5;
 int currentFrame = 0;
 int totalAnimationTime = 5000;
 int frameDuration = totalAnimationTime / numFrames;
